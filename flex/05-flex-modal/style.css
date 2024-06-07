@@ -15,12 +15,57 @@ body {
   justify-content: center;
 }
 
+
+
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
 }
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-left: 0;
+}
+.text {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.icon {
+  flex-shrink: 0;
+  margin: 15px;
+}
+
+
+
+
+
+
 
 .icon {
   color: royalblue;
